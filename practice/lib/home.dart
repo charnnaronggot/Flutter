@@ -44,7 +44,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                   Container(
                     alignment: Alignment.topLeft,
                     margin: const EdgeInsets.all(10.0),
-                    child: Row(
+                    child: const Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Padding(
@@ -67,7 +67,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                   ),
                   Container(
                     margin: const EdgeInsets.all(10.0),
-                    child: Row(
+                    child: const Row(
                       children: [
                         Padding(
                           padding: EdgeInsets.only(right: 10),
@@ -86,7 +86,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                   ),
                   Container(
                     margin: const EdgeInsets.all(10),
-                    child: Row(children: [
+                    child: const Row(children: [
                       Padding(
                         padding: EdgeInsets.only(right: 10),
                         child: Image(

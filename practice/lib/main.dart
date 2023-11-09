@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:practice/home.dart';
 import 'package:practice/business.dart';
+import 'package:practice/School.dart';
 
 void main() {
   runApp(const MyApp());
@@ -124,6 +125,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: <Widget>[
         const HomeWidget(),
         const BusinessWidget(),
+        SchoolWidget(),
         Container(
           color: Colors.yellow,
           alignment: Alignment.center,
